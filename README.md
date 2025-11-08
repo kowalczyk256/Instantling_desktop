@@ -1,151 +1,166 @@
 <p align="center">
-<img src="./logo.png" alt="Logo Projektu" width="150">
+  <img src="./logo.png" alt="Logo Projektu" width="150">
 </p>
 
 <h1 align="center">Instantling Desktop</h1>
 
 <p align="center">
-<strong><a href="#-english">English</a></strong> | <strong><a href="#-polski">Polski</a></strong>
+  <strong><a href="#-english">English</a></strong> | <strong><a href="#-polski">Polski</a></strong>
 </p>
 
+---
 
 <a name="-english"></a>
 
-🇬🇧 English Version
+### 💡 About The Project
 
-<h3 align="center">
-A simple automation script.
-</h3>
+A project created by [@Szami993](https://github.com/Szami993) and [@kowalczyk256](https://github.com/kowalczyk256).
 
+It was built in 2023 as a way to learn Python and to automate the process of completing sessions on the Instaling platform.  
+We are sharing it for public use. We're aware it's not perfect (we'd write it a bit differently today), but we hope someone finds it useful 😅
 
-💡 About The Project
+### ✨ Key Features
 
-A project created by @Szami993 and @kowalczyk256.
+- **Bot Mode:** Completes the assigned sessions as quickly as possible.  
+- **Human Simulation Mode:** Randomizes response times and makes intentional typos to simulate human behavior.
 
-It was built in 2023 as a way to learn Python and to automate the process of completing sessions on the Instaling platform. We are sharing it for public use. We're aware it's not perfect (we'd write it a bit differently today), but we hope someone finds it useful 😅
+### 🚀 Installation & Usage
 
-✨ Key Features
-
-Bot Mode: Completes the assigned sessions as quickly as possible.
-
-Human Simulation Mode: Randomizes response times and makes intentional typos to simulate human behavior.
-
-🚀 Installation & Usage
-
-1. Prerequisites
+#### 1. Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-Google Chrome browser.
+- Google Chrome browser  
+- Python 3.x  
+- The following Python libraries: `selenium`, `sqlite3`, `tkinter`, `threading`, `random`, `os`
 
-Python 3.x.
-
-The following Python libraries: selenium, sqlite3, tkinter, threading, random, os.
-
-2. Installation
+#### 2. Installation
 
 Clone the repository to your local machine:
 
-git clone [https://github.com/kowalczyk256/instantling_desktop.git](https://github.com/kowalczyk256/instantling_desktop.git)
+```bash
+git clone https://github.com/kowalczyk256/instantling_desktop.git
 cd instantling_desktop
+```
 
+Install the required Selenium library (most others are part of the standard Python installation):
 
-Install the required selenium library (most other libraries are part of the standard Python installation):
-
+```bash
 pip install selenium
+```
 
+> 💡 On some Linux systems, `tkinter` might need to be installed separately, e.g.:
+> ```bash
+> sudo apt-get install python3-tk
+> ```
 
-(Note: On some Linux systems, tkinter might need to be installed separately, e.g., sudo apt-get install python3-tk)
-
-3. Usage
+#### 3. Usage
 
 Simply run the main script file:
 
+```bash
 python instantling.py
-
+```
 
 The application's GUI window should appear, ready to use.
 
-🤝 Contributing
+### 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create.  
+Any contributions you make are greatly appreciated!
 
-Fork the Project.
+1. Fork the Project  
+2. Create your Feature Branch  
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+3. Commit your Changes  
+   ```bash
+   git commit -m 'Add some AmazingFeature'
+   ```
+4. Push to the Branch  
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+5. Open a Pull Request  
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature).
-
-Commit your Changes (git commit -m 'Add some AmazingFeature').
-
-Push to the Branch (git push origin feature/AmazingFeature).
-
-Open a Pull Request.
+---
 
 <a name="-polski"></a>
 
-🇵🇱 Wersja Polska
+### 💡 O Projekcie
 
-<h3 align="center">
-Prosty skrypt automatyzacji do nauki i użytku.
-</h3>
+Projekt stworzony przez [@Szami993](https://github.com/Szami993) i [@kowalczyk256](https://github.com/kowalczyk256).
 
-💡 O Projekcie
+Powstał w 2023 roku w celu nauki Pythona oraz zautomatyzowania procesu wykonywania sesji na platformie Instaling.  
+Udostępniamy go do użytku publicznego — mamy świadomość, że nie jest idealny (dziś napisalibyśmy go trochę inaczej), ale mamy nadzieję, że się komuś przyda 😅
 
-Projekt stworzony przez @Szami993 i @kowalczyk256.
+### ✨ Kluczowe Funkcje
 
-Powstał w 2023 roku w celu poduczenia się Pythona oraz zautomatyzowania procesu wykonywania sesji na platformie Instaling. Udostępniamy go do użytku publicznego. Mamy świadomość, że nie jest idealny (dziś napisalibyśmy go trochę inaczej), ale mamy nadzieję, że się komuś przyda 😅
+- **Tryb bota:** Jak najszybsze wykonywanie zadanych sesji  
+- **Tryb symulacji człowieka:** Losowanie czasów odpowiedzi i celowe popełnianie literówek, aby upodobnić działanie skryptu do człowieka
 
-✨ Kluczowe Funkcje
+### 🚀 Instalacja i Uruchomienie
 
-Tryb bota: Jak najszybsze wykonywanie zadanych sesji.
-
-Tryb symulacji człowieka: Losowanie czasów odpowiedzi i celowe popełnianie literówek, aby upodobnić działanie skryptu do człowieka.
-
-🚀 Instalacja i Uruchomienie
-
-1. Wymagania Wstępne
+#### 1. Wymagania Wstępne
 
 Przed uruchomieniem upewnij się, że masz zainstalowane:
 
-Przeglądarkę Google Chrome.
+- Przeglądarkę Google Chrome  
+- Python 3.x  
+- Biblioteki Python: `selenium`, `sqlite3`, `tkinter`, `threading`, `random`, `os`
 
-Python 3.x.
-
-Biblioteki Python: selenium, sqlite3, tkinter, threading, random, os.
-
-2. Instalacja
+#### 2. Instalacja
 
 Sklonuj repozytorium na swój komputer:
 
-git clone [https://github.com/kowalczyk256/instantling_desktop.git](https://github.com/kowalczyk256/instantling_desktop.git)
+```bash
+git clone https://github.com/kowalczyk256/instantling_desktop.git
 cd instantling_desktop
+```
 
+Zainstaluj wymaganą bibliotekę Selenium (pozostałe są częścią standardowej biblioteki Pythona):
 
-Zainstaluj wymaganą bibliotekę selenium (pozostałe są zazwyczaj częścią standardowej biblioteki Pythona):
-
+```bash
 pip install selenium
+```
 
+> 💡 Na niektórych systemach Linux może być konieczna instalacja `tkinter`:
+> ```bash
+> sudo apt-get install python3-tk
+> ```
 
-(Na niektórych systemach Linux może być konieczna dodatkowa instalacja tkinter, np. sudo apt-get install python3-tk)
+#### 3. Uruchomienie
 
-3. Uruchomienie
+Uruchom główny plik skryptu:
 
-Po prostu uruchom główny plik skryptu:
-
+```bash
 python instantling.py
-
+```
 
 Powinno pojawić się okno aplikacji (GUI) gotowe do pracy.
 
-🤝 Wkład (Contributing)
+### 🤝 Wkład (Contributing)
 
 Wkład w rozwój projektu jest mile widziany! Jeśli masz pomysł na ulepszenie:
 
-Zrób Fork projektu.
+1. Zrób Fork projektu  
+2. Stwórz nową gałąź  
+   ```bash
+   git checkout -b funkcja/niesamowita-funkcja
+   ```
+3. Zatwierdź zmiany  
+   ```bash
+   git commit -m 'Dodaj niesamowitą funkcję'
+   ```
+4. Wypchnij zmiany  
+   ```bash
+   git push origin funkcja/niesamowita-funkcja
+   ```
+5. Otwórz Pull Request  
 
-Stwórz nową gałąź (git checkout -b funkcja/niesamowita-funkcja).
+---
 
-Zatwierdź zmiany (git commit -m 'Dodaj niesamowitą funkcję').
-
-Wypchnij zmiany do gałezi (git push origin funkcja/niesamowita-funkcja).
-
-Otwórz Pull Request.
+<p align="center">
+  Made with ❤️ by <a href="https://github.com/Szami993">@Szami993</a> & <a href="https://github.com/kowalczyk256">@kowalczyk256</a>
+</p>
